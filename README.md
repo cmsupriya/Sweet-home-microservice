@@ -1,4 +1,4 @@
-# Sweet-home-microservice
+# Sweet-home
 A microservice architecture based (hotel room) booking application
 
 ## High Level Architecture
@@ -73,7 +73,7 @@ Response Body Ex -
     	 "fromDate": "2010-02-02",
     	 "toDate": "2010-02-10",
     	 "bookedOn": "2021-10-20 17:21:47",
-    	 "aadharNumber": "Akash Sinha-Aadhar Number",
+    	 "aadharNumber": "Supriya Sahoo-Aadhar Number",
     	 "roomNumbers": "40,61,62,59,3",
     	 "numOfRooms": 5,
     	 "roomPrice": 40000,
