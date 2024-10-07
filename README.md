@@ -138,32 +138,16 @@ Notification service is also made as a simple spring boot application. The main 
 
 Please set the EC2 connection endpoint under property "bootstrap.servers" for the notifications to be fetched.
 
-Ex. from console - 
-
-![notification](/meta/notification.png)
-
 ## Eureka Server
 
 Eureka Server is an application that holds the information about all client-service applications. It knows all the client applications running on each port and IP address. Eureka Server is also known as Discovery Server.
 
 The Booking and Payment services registers themselves into the Eureka server.
 
-The Eureka Server is started on port 8761. On the browser if we go to http://localhost:8761/ we can see the Booking and Payment services are up –
-
-![Eureka](/meta/eureka-log.png)
-
-
-# Logic Flow
-
-### Making a new booking -
-
-
-<a href=""><img src="/meta/flowchart-1.png" alt="flow-1" width="400" border="10" /></a>
+The Eureka Server is started on port 8761. On the browser if we go to http://localhost:8761/ we can see the Booking and Payment services are up.
 
 
 ### Completing a transaction to confirm booking -
-
-<a href=""><img src="/meta/flowchart-2.png" alt="flow-2" width="400" border="10" /></a>
 
 # Future Enhancements
 
