@@ -1,13 +1,29 @@
 # Sweet-home
 A microservice architecture based (hotel room) booking application
 
-## High Level Architecture
+## Prerequisites
 
-The application consists of the following three microservices:
+- MySQL
+- Apache Kafka (Optional)
+
+## Quickstart
+
+- Create a new schema "booking" in MySQL
+- Start Apache Kafka ZooKeeper service and Broker service (Optional)
+- Run application microservices
+
+## Application Services
+
+The application consists of the following microservices:
 - Booking Service
 - Payment Service
-- Notification Service
-  ## Booking Service
+- Eureka Service
+- Notification Service (Optional)
+
+## Database Schema Diagram
+
+
+## Booking Service
 
 ### API-1: Make New Booking
 
@@ -22,8 +38,8 @@ Request Body Ex –
 
 ```
 	{
-   	 "fromDate": "2021-02-02",
-   	 "toDate": "2021-02-10",
+   	 "fromDate": "2024-10-08",
+   	 "toDate": "2024-10-13",
     	 "aadharNumber": "Surpiya Sahoo-Aadhar Number",
     	 "numOfRooms": 5
 	}
